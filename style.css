@@ -102,6 +102,25 @@ label {
 .brief__text {
     color: #000000;
 }
+.vars {
+    font-size: 24px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.combi__text {
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 50px;
+}
+thead {
+    background-color: purple;
+}
+th {
+    text-transform: uppercase;
+}
+
 
 @media (max-width: 775px) {
     .nav {
@@ -112,3 +131,19 @@ label {
         padding-top: 50px;
     }
 }
+@media (max-width: 650px) {
+    .var {
+        margin-top: 300px;
+    }
+}
+@media (max-width: 385px) {
+    .var {
+        margin-top: 490px;
+    }
+}
+@media (max-width: 330px) {
+    .var {
+        margin-top: 600px;
+    }
+}
+
